@@ -1,0 +1,7 @@
+{
+	"browser" : "chrome",
+	"timeouts" :20,
+	"username" : "admin",
+	"password" : "Password@123",
+	"url" : "http://localhost:8888/index.php?action=Login&module=Users"
+}
