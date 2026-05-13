@@ -22,22 +22,4 @@
       </class> <!-- Contact_Module.ContactModuleTest -->
     </classes>
   </test> <!-- Test2(failed) -->
-  <test thread-count="5" parallel="tests" name="Test1(failed)">
-    <classes>
-      <class name="organization_module.OrganizationModuleTest">
-        <methods>
-          <include name="LaunchTheBrowser"/>
-          <include name="CloseConfigParallelExe"/>
-          <include name="Logout"/>
-          <include name="Createorgname_test"/>
-          <include name="login"/>
-          <include name="ConnectWith_BD"/>
-          <include name="Createorgname_Withphonenumber_test"/>
-          <include name="ConfigParallelExe"/>
-          <include name="quitThebrowser"/>
-          <include name="Disconneted_DB"/>
-        </methods>
-      </class> <!-- organization_module.OrganizationModuleTest -->
-    </classes>
-  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
