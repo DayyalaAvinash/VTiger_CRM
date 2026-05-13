@@ -26,7 +26,7 @@ import vtiger_crm.HomepagePomPage;
 
 import vtiger_crm.Organizations_PomPage;
 import vtiger_crm.organization_InformationPomPage;
-@Listeners(ListenerUtility.Listeners.class)
+//@Listeners(ListenerUtility.Listeners.class)
 	/**
 	*This Class Is Worked On Contact Module
 	*/

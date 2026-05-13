@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 12 14:30:18 IST 2026</td>
+<td>Started on:</td><td>Wed May 13 23:05:48 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23611 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90932 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,119 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.login()'><b>login</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2045316485", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2045316485'><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.Logout()'><b>Logout</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td></td>
-<td>0</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.login()'><b>login</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td></td>
-<td>0</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.quitThebrowser()'><b>quitThebrowser</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td></td>
-<td>0</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.Logout()'><b>Logout</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td></td>
-<td>0</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -189,182 +76,40 @@ Session ID: d7a9d5477681a88b93740a169ffa1284
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Contact_Module.ContactModuleTest.CreateContact_WithSupportdates_test()'><b>CreateContact_WithSupportdates_test</b><br>Test class: Contact_Module.ContactModuleTest<br/>
-<a href="#Output-1000690821" onClick='toggleBox("Output-1000690821", this, "Show output", "Hide output");'>Show output</a>
+<td title='Contact_Module.ContactModuleTest.CreateContact_Withlastname_test()'><b>CreateContact_Withlastname_test</b><br>Test class: Contact_Module.ContactModuleTest<br/>
+<a href="#Output-1792747729" onClick='toggleBox("Output-1792747729", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1000690821" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1000690821">
+<a href="#Output-1792747729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792747729">
+CreateContact_Withlastname_test : Test Execution Started<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
+<tr>
+<td title='Contact_Module.ContactModuleTest.CreateContact_WithSupportdates_test()'><b>CreateContact_WithSupportdates_test</b><br>Test class: Contact_Module.ContactModuleTest<br/>
+<a href="#Output-890633246" onClick='toggleBox("Output-890633246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890633246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890633246">
 CreateContact_WithSupportdates_test : Test Execution Started<br/>
 </div>
 </td>
 <td></td>
-<td>18</td>
-<td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Contact_Module.ContactModuleTest.CreateContact_Withlastname_test()'><b>CreateContact_Withlastname_test</b><br>Test class: Contact_Module.ContactModuleTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace381636507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace381636507'><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
+<td>15</td>
 <td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
 <tr>
 <td title='Contact_Module.ContactModuleTest.CreateContact_With_orgnametest()'><b>CreateContact_With_orgnametest</b><br>Test class: Contact_Module.ContactModuleTest<br/>
-<a href="#Output-1907200439" onClick='toggleBox("Output-1907200439", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-974313519" onClick='toggleBox("Output-974313519", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1907200439" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1907200439">
-CreateContact_Withlastname_test : Test Execution Started<br/>
+<a href="#Output-974313519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-974313519">
+CreateContact_With_orgnametest : Test Execution Started<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907200439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1907200439'><pre>org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;normal&apos;, current state is &apos;maximized&apos;
-  (Session info: chrome=148.0.7778.97)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d7a9d5477681a88b93740a169ffa1284, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.97 (6b3fa66a923a..., userDataDir: C:\Users\AVINAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56722}, goog:processID: 19904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d7a9d5477681a88b93740a169ffa1284
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1202)
-	at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
-	at BaseClassUtility.BaseClass.login(BaseClass.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
+<td></td>
+<td>38</td>
 <td>Contact_Module.ContactModuleTest@75db5df9</td></tr>
 </table><p>
 </body>
