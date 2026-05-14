@@ -22,6 +22,9 @@ import vtiger_crm.HomepagePomPage;
 import vtiger_crm.Organizations_PomPage;
 import vtiger_crm.organization_InformationPomPage;
 //@Listeners(ListenerUtility.Listeners.class)
+/**
+ * This class is worked on organization module
+ */
 public class OrganizationModuleTest extends BaseClass {
 
 	@Test(groups = "smoke",retryAnalyzer = ListenerUtility.RetryAnalyser.class)
