@@ -185,6 +185,12 @@ public class ContactModuleTest extends BaseClass {
 
 	}
 
+	/**
+	 * this method is used to CreateContact_With_orgnametest
+	 * @throws InterruptedException
+	 * @throws EncryptedDocumentException
+	 * @throws IOException
+	 */
 	@Test(groups = "regression",retryAnalyzer = ListenerUtility.RetryAnalyser.class)
 	public void CreateContact_With_orgnametest() throws InterruptedException, EncryptedDocumentException, IOException {
 
