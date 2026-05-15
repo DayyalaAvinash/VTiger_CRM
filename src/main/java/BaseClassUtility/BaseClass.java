@@ -33,25 +33,28 @@ public class BaseClass {
 	public WebDriver driver=null;
 	public static WebDriver sdriver=null;
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void ConnectWith_BD() throws SQLException {
 		
 		dbutil.getconnectwith_DB();
 		Reporter.log("Connected With DataBase",true);
 	}
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void ConfigParallelExe() {
 		Reporter.log("Configured Parallel Execution",true);
 	}
 	
 	//@Parameters("Browser")
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void LaunchTheBrowser() throws IOException {
 		Reporter.log("Launching Browser",true);
-		// launch The Browser
-		 
-		String Browser = putil.fetchdatafrompropfile("browser");
+		// launch The Browser	 
+		//To Fetch Value Using Property File
+		//String Browser = putil.fetchdatafrompropfile("browser");
+		
+		// To Fetch Value in Run Time Using Maven
+		String Browser=System.getProperty("Browser",putil.fetchdatafrompropfile("browser"));
 				if (Browser.equals("chrome")) {
 					driver = new ChromeDriver();
 				} else if (Browser.equals("edge")) {
@@ -65,15 +68,21 @@ public class BaseClass {
 				sdriver=driver;
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void login() throws IOException {
 		//Fetch data From Property File
+		//String url = putil.fetchdatafrompropfile("url");
+		//String Browser = putil.fetchdatafrompropfile("browser");
+		//String username = putil.fetchdatafrompropfile("username");
+		//String password = putil.fetchdatafrompropfile("password");
+		//String timeouts = putil.fetchdatafrompropfile("timeouts");
 		
-		String url = putil.fetchdatafrompropfile("url");
-		String Browser = putil.fetchdatafrompropfile("browser");
-		String username = putil.fetchdatafrompropfile("username");
-		String password = putil.fetchdatafrompropfile("password");
-		String timeouts = putil.fetchdatafrompropfile("timeouts");
+		//// To Fetch Value in Run Time Using Maven comand promot
+		String url = System.getProperty("url",putil.fetchdatafrompropfile("url"));
+		String username = System.getProperty("username",putil.fetchdatafrompropfile("username"));
+		String password = System.getProperty("password",putil.fetchdatafrompropfile("password"));
+		String timeouts = System.getProperty("timeouts",putil.fetchdatafrompropfile("timeouts"));
+
 		
 		//Maximize the Browser
 		wutil.Maximize_Browser(driver);
@@ -92,7 +101,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void Logout() {
 		
 		HomepagePomPage hom=new HomepagePomPage(driver);
@@ -101,18 +110,18 @@ public class BaseClass {
 		Reporter.log("Logged Out  the Application",true);
 	}
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void quitThebrowser() {
 		wutil.QuitTheBrowser(driver);
 		Reporter.log("Quiting The Browser",true);
 	}
 	
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void CloseConfigParallelExe() {
 		Reporter.log("Close Configured Parallel Execution",true);
 	}
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void Disconneted_DB() throws SQLException {
 		dbutil.disconnectwith_DB();
 		Reporter.log("Disconnected With DataBase",true);

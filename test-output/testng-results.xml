@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="4" total="6" passed="0" failed="0" skipped="2">
   <reporter-output>
     <line>
       <![CDATA[Suite Execution Started-Adv Report Configuration]]>
@@ -11,76 +11,16 @@
       <![CDATA[Configured Parallel Execution]]>
     </line>
     <line>
-      <![CDATA[Configured Parallel Execution]]>
-    </line>
-    <line>
       <![CDATA[Launching Browser]]>
-    </line>
-    <line>
-      <![CDATA[Launching Browser]]>
-    </line>
-    <line>
-      <![CDATA[Logged Into Application]]>
     </line>
     <line>
       <![CDATA[Createorgname_With_Industery_Typetest : Test Execution Started]]>
     </line>
     <line>
-      <![CDATA[Logged Into Application]]>
-    </line>
-    <line>
-      <![CDATA[CreateContact_WithSupportdates_test : Test Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Logged Into Application]]>
-    </line>
-    <line>
-      <![CDATA[Createorgname_Withphonenumber_test : Test Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Logged Into Application]]>
-    </line>
-    <line>
-      <![CDATA[CreateContact_With_orgnametest : Test Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Logged Into Application]]>
-    </line>
-    <line>
-      <![CDATA[Createorgname_test : Test Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Quiting The Browser]]>
-    </line>
-    <line>
-      <![CDATA[Close Configured Parallel Execution]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Logged Into Application]]>
+      <![CDATA[Launching Browser]]>
     </line>
     <line>
       <![CDATA[CreateContact_Withlastname_test : Test Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Logged Out  the Application]]>
-    </line>
-    <line>
-      <![CDATA[Quiting The Browser]]>
     </line>
     <line>
       <![CDATA[Close Configured Parallel Execution]]>
@@ -89,222 +29,479 @@
       <![CDATA[Disconnected With DataBase]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-05-13T23:05:48 IST" name="Suite" finished-at="2026-05-13T23:07:19 IST" duration-ms="90932">
+  <suite started-at="2026-05-15T11:19:20 IST" name="Suite" finished-at="2026-05-15T11:19:20 IST" duration-ms="141">
     <groups>
-      <group name="regression">
-        <method signature="OrganizationModuleTest.Createorgname_Withphonenumber_test()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" name="Createorgname_Withphonenumber_test" class="organization_module.OrganizationModuleTest"/>
-        <method signature="OrganizationModuleTest.Createorgname_test()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" name="Createorgname_test" class="organization_module.OrganizationModuleTest"/>
-        <method signature="ContactModuleTest.CreateContact_WithSupportdates_test()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" name="CreateContact_WithSupportdates_test" class="Contact_Module.ContactModuleTest"/>
-        <method signature="ContactModuleTest.CreateContact_With_orgnametest()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" name="CreateContact_With_orgnametest" class="Contact_Module.ContactModuleTest"/>
-      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="OrganizationModuleTest.Createorgname_With_Industery_Typetest()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" name="Createorgname_With_Industery_Typetest" class="organization_module.OrganizationModuleTest"/>
-        <method signature="ContactModuleTest.CreateContact_Withlastname_test()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" name="CreateContact_Withlastname_test" class="Contact_Module.ContactModuleTest"/>
+        <method signature="ContactModuleTest.CreateContact_Withlastname_test()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" name="CreateContact_Withlastname_test" class="Contact_Module.ContactModuleTest"/>
+        <method signature="OrganizationModuleTest.Createorgname_With_Industery_Typetest()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" name="Createorgname_With_Industery_Typetest" class="organization_module.OrganizationModuleTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-05-13T23:05:48 IST" name="Test1" finished-at="2026-05-13T23:06:42 IST" duration-ms="53469">
+    <test started-at="2026-05-15T11:19:20 IST" name="Test" finished-at="2026-05-15T11:19:20 IST" duration-ms="141">
       <class name="organization_module.OrganizationModuleTest">
-        <test-method is-config="true" signature="ConfigParallelExe()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:05:48 IST" name="ConfigParallelExe" finished-at="2026-05-13T23:05:48 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Configured Parallel Execution]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ConfigParallelExe -->
-        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:05:48 IST" name="LaunchTheBrowser" finished-at="2026-05-13T23:05:50 IST" duration-ms="2065" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Launching Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LaunchTheBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:05:50 IST" name="login" finished-at="2026-05-13T23:05:54 IST" duration-ms="3181" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="Createorgname_With_Industery_Typetest()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:05:54 IST" name="Createorgname_With_Industery_Typetest" finished-at="2026-05-13T23:06:06 IST" duration-ms="12624" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Createorgname_With_Industery_Typetest : Test Execution Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Createorgname_With_Industery_Typetest -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:06 IST" name="Logout" finished-at="2026-05-13T23:06:07 IST" duration-ms="1131" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:07 IST" name="login" finished-at="2026-05-13T23:06:10 IST" duration-ms="2448" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="Createorgname_Withphonenumber_test()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:10 IST" name="Createorgname_Withphonenumber_test" finished-at="2026-05-13T23:06:23 IST" duration-ms="13034" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Createorgname_Withphonenumber_test : Test Execution Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Createorgname_Withphonenumber_test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:23 IST" name="Logout" finished-at="2026-05-13T23:06:24 IST" duration-ms="1121" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:24 IST" name="login" finished-at="2026-05-13T23:06:26 IST" duration-ms="2484" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="Createorgname_test()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:26 IST" name="Createorgname_test" finished-at="2026-05-13T23:06:40 IST" duration-ms="13958" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Createorgname_test : Test Execution Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Createorgname_test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:40 IST" name="Logout" finished-at="2026-05-13T23:06:42 IST" duration-ms="1211" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="quitThebrowser()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:42 IST" name="quitThebrowser" finished-at="2026-05-13T23:06:42 IST" duration-ms="158" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Quiting The Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- quitThebrowser -->
-        <test-method is-config="true" signature="CloseConfigParallelExe()[pri:0, instance:organization_module.OrganizationModuleTest@302552ec]" started-at="2026-05-13T23:06:42 IST" name="CloseConfigParallelExe" finished-at="2026-05-13T23:06:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Close Configured Parallel Execution]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CloseConfigParallelExe -->
-      </class> <!-- organization_module.OrganizationModuleTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2026-05-13T23:05:48 IST" name="Test2" finished-at="2026-05-13T23:07:19 IST" duration-ms="90932">
-      <class name="Contact_Module.ContactModuleTest">
-        <test-method is-config="true" signature="ConnectWith_BD()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:05:48 IST" name="ConnectWith_BD" finished-at="2026-05-13T23:05:48 IST" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="ConnectWith_BD()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="ConnectWith_BD" finished-at="2026-05-15T11:19:20 IST" duration-ms="397" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Connected With DataBase]]>
             </line>
           </reporter-output>
         </test-method> <!-- ConnectWith_BD -->
-        <test-method is-config="true" signature="ConfigParallelExe()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:05:48 IST" name="ConfigParallelExe" finished-at="2026-05-13T23:05:48 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ConfigParallelExe()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="ConfigParallelExe" finished-at="2026-05-15T11:19:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Configured Parallel Execution]]>
             </line>
           </reporter-output>
         </test-method> <!-- ConfigParallelExe -->
-        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:05:48 IST" name="LaunchTheBrowser" finished-at="2026-05-13T23:06:05 IST" duration-ms="16578" status="PASS">
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="LaunchTheBrowser" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "Browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "Browser" is null
+at BaseClassUtility.BaseClass.LaunchTheBrowser(BaseClass.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- LaunchTheBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:06:05 IST" name="login" finished-at="2026-05-13T23:06:06 IST" duration-ms="901" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="login" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
+at BaseClassUtility.BaseClass.login(BaseClass.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="CreateContact_WithSupportdates_test()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:06:06 IST" name="CreateContact_WithSupportdates_test" finished-at="2026-05-13T23:06:21 IST" duration-ms="15052" status="PASS">
+        <test-method signature="Createorgname_With_Industery_Typetest()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="Createorgname_With_Industery_Typetest" finished-at="2026-05-15T11:19:20 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "Browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "Browser" is null
+at BaseClassUtility.BaseClass.LaunchTheBrowser(BaseClass.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[CreateContact_WithSupportdates_test : Test Execution Started]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- CreateContact_WithSupportdates_test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:06:21 IST" name="Logout" finished-at="2026-05-13T23:06:22 IST" duration-ms="1186" status="PASS">
+        </test-method> <!-- Createorgname_With_Industery_Typetest -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="Logout" finished-at="2026-05-15T11:19:20 IST" duration-ms="38" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:61)
+at Utility.WebdriverUtility.MouserOverToElement(WebdriverUtility.java:417)
+at BaseClassUtility.BaseClass.Logout(BaseClass.java:108)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:633)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:06:22 IST" name="login" finished-at="2026-05-13T23:06:24 IST" duration-ms="2323" status="PASS">
+        <test-method is-config="true" signature="quitThebrowser()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="quitThebrowser" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "driver" is null
+at Utility.WebdriverUtility.QuitTheBrowser(WebdriverUtility.java:482)
+at BaseClassUtility.BaseClass.quitThebrowser(BaseClass.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="CreateContact_With_orgnametest()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:06:24 IST" name="CreateContact_With_orgnametest" finished-at="2026-05-13T23:07:03 IST" duration-ms="38778" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CreateContact_With_orgnametest : Test Execution Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateContact_With_orgnametest -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:03 IST" name="Logout" finished-at="2026-05-13T23:07:04 IST" duration-ms="959" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:04 IST" name="login" finished-at="2026-05-13T23:07:06 IST" duration-ms="1969" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Into Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="CreateContact_Withlastname_test()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:06 IST" name="CreateContact_Withlastname_test" finished-at="2026-05-13T23:07:18 IST" duration-ms="11917" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CreateContact_Withlastname_test : Test Execution Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateContact_Withlastname_test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:18 IST" name="Logout" finished-at="2026-05-13T23:07:19 IST" duration-ms="1074" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logged Out  the Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="quitThebrowser()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:19 IST" name="quitThebrowser" finished-at="2026-05-13T23:07:19 IST" duration-ms="159" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Quiting The Browser]]>
-            </line>
           </reporter-output>
         </test-method> <!-- quitThebrowser -->
-        <test-method is-config="true" signature="CloseConfigParallelExe()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:19 IST" name="CloseConfigParallelExe" finished-at="2026-05-13T23:07:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="CloseConfigParallelExe()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="CloseConfigParallelExe" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Configured Parallel Execution]]>
             </line>
           </reporter-output>
         </test-method> <!-- CloseConfigParallelExe -->
-        <test-method is-config="true" signature="Disconneted_DB()[pri:0, instance:Contact_Module.ContactModuleTest@75db5df9]" started-at="2026-05-13T23:07:19 IST" name="Disconneted_DB" finished-at="2026-05-13T23:07:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Disconneted_DB()[pri:0, instance:organization_module.OrganizationModuleTest@752325ad]" started-at="2026-05-15T11:19:20 IST" name="Disconneted_DB" finished-at="2026-05-15T11:19:20 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Disconnected With DataBase]]>
             </line>
           </reporter-output>
         </test-method> <!-- Disconneted_DB -->
+      </class> <!-- organization_module.OrganizationModuleTest -->
+      <class name="Contact_Module.ContactModuleTest">
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" started-at="2026-05-15T11:19:20 IST" name="LaunchTheBrowser" finished-at="2026-05-15T11:19:20 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "Browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "Browser" is null
+at BaseClassUtility.BaseClass.LaunchTheBrowser(BaseClass.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" started-at="2026-05-15T11:19:20 IST" name="login" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
+at BaseClassUtility.BaseClass.login(BaseClass.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateContact_Withlastname_test()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" started-at="2026-05-15T11:19:20 IST" name="CreateContact_Withlastname_test" finished-at="2026-05-15T11:19:20 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+at Utility.WebdriverUtility.Maximize_Browser(WebdriverUtility.java:31)
+at BaseClassUtility.BaseClass.login(BaseClass.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContact_Withlastname_test -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" started-at="2026-05-15T11:19:20 IST" name="Logout" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:61)
+at Utility.WebdriverUtility.MouserOverToElement(WebdriverUtility.java:417)
+at BaseClassUtility.BaseClass.Logout(BaseClass.java:108)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:633)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="quitThebrowser()[pri:0, instance:Contact_Module.ContactModuleTest@1ff4931d]" started-at="2026-05-15T11:19:20 IST" name="quitThebrowser" finished-at="2026-05-15T11:19:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "driver" is null
+at Utility.WebdriverUtility.QuitTheBrowser(WebdriverUtility.java:482)
+at BaseClassUtility.BaseClass.quitThebrowser(BaseClass.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitThebrowser -->
       </class> <!-- Contact_Module.ContactModuleTest -->
-    </test> <!-- Test2 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
